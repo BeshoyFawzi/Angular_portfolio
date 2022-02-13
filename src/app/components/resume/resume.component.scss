@@ -1,0 +1,68 @@
+
+.bt1 {
+  background-color: #fe5e41;
+}
+.line {
+  height: auto;
+  border-left: 2px solid #fe5e41;
+  position: relative;
+  .indate {
+    color: #fe5e41;
+  }
+  strong::before {
+    content: "";
+    background-color: #fe5e41;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.5;
+    position: absolute;
+    top: 5px;
+    left: -8px;
+    border-radius: 50%;
+  }
+}
+
+.bt2 {
+  background-color: #ff9f1c;
+}
+.line2 {
+  height: auto;
+  border-left: 2px solid #ff9f1c;
+  position: relative;
+  .indate {
+    color: #ff9f1c;
+  }
+  strong::before {
+    content: "";
+    background-color: #ff9f1c;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.5;
+    position: absolute;
+    top: 5px;
+    left: -8px;
+    border-radius: 50%;
+  }
+}
+.bt3 {
+  background-color: #ffbf69;
+}
+.line3 {
+  height: auto;
+  border-left: 2px solid #ffbf69;
+  position: relative;
+  .indate {
+    color: #ffbf69;
+  }
+  strong::before {
+    content: "";
+    background-color: #ffbf69;
+    width: 0.8rem;
+    height: 0.8rem;
+    line-height: 0.5;
+    position: absolute;
+    top: 5px;
+    left: -8px;
+    border-radius: 50%;
+  }
+}

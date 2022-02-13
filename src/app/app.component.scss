@@ -1,0 +1,62 @@
+.container {
+    height: 600px;
+    // background-color: black;
+    font-family: Roboto, sans-serif;
+  }
+  .aside-right::-webkit-scrollbar {
+    display: none;
+  }
+  .aside-right {
+    height: 570px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #ffffff;
+  }  
+  #About {
+    background-color: #ffffff;
+    background-size: 100% 100%;
+  }
+
+  #Portfolio {
+    background-color: #ffffff;
+  }
+  #Skills {
+    background-color: #ffffff;
+}
+#Resume {
+    background-color: #ffffff;
+}
+
+#Contact {
+    background-image: url(../assets/img/undraw_Terms_re_6ak4.svg);
+    background-size: 100% 100%;
+}
+
+
+// .sticky {
+//     // background-color:#0d6efd !important;
+//     position: relative;
+//     section {
+//       position: absolute;
+//       top: 40%;
+//       left: 0;
+//     }
+//     .f-switch {
+//       border-radius: 20px;
+//       position: absolute;
+//       top: 15%;
+//       left: 20%;
+//       #btdark {
+//         position: absolute;
+//         top: -40px;
+//         right: 60%;
+//         color: black !important;
+//       }
+//       #btlight {
+//         position: absolute;
+//         right:-30px;
+//         color: black !important;
+//       }
+//     }
+//   }

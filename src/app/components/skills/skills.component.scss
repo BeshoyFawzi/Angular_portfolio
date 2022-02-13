@@ -1,0 +1,13 @@
+
+  img {
+    height: 100px;
+  }
+  $rainbow: rgba(103, 128, 159, 0.7) rgba(54, 215, 183, 0.7)
+    rgba(165, 55, 253, 0.7) rgba(150, 54, 148, 0.68) rgba(238, 238, 0, 0.7)
+    rgba(118, 93, 105, 0.7) rgba(78, 205, 196, 0.7) rgba(219, 10, 91, 0.7)
+    rgba(134, 226, 213, 0.7) rgba(0, 230, 64, 0.7);
+  @for $i from 1 through 10 {
+    div:nth-child(#{$i}) {
+      background-color: nth($rainbow, $i);
+    }
+  }
